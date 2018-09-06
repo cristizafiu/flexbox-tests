@@ -1,0 +1,28 @@
+.container__row {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #012;
+}
+
+.container__row--reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 1px solid #def;
+}
+
+.container__row--nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid rgb(8, 58, 107);
+}
+
+.container__title {
+    color: blue;
+    flex-basis: 100%;
+}
+
+.container__col1,.container__col2, .container__col3, .container__col4 {
+    flex-grow: 1;
+    text-align: center;
+    color: lightseagreen;
+}
